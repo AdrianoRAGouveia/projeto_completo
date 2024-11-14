@@ -1,0 +1,109 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Menu Hambúrguer */
+.hamburger {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+/* Carrossel */
+.carousel {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 350px;
+}
+
+/* Seção Sobre */
+.sobre {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sobre img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.sobre-texto {
+    max-width: 600px;
+}
+
+/* Formulário de Contato */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    max-width: 300px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Efeito de Rolagem Suave */
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Completo</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Link para o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- Menu Hambúrguer -->
+<div class="hamburger">&#9776;</div>
+<div class="menu">
+    <div class="menu-item">Home</div>
+    <div class="menu-item">Sobre</div>
+    <div class="menu-item">Serviços</div>
+    <div class="menu-item">Contato</div>
+</div>
+
+<!-- Carrossel de Imagens -->
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="imagens/slide1.png" alt="Imagem 1">
+        <img src="imagens/slide2.png" alt="Imagem 2">
+        <img src="imagens/slide3.png" alt="Imagem 3">
+    </div>
+</div>
+
+<!-- Seção Sobre -->
+<div class="sobre">
+    <img src="imagens/adr.svg" alt="Imagem da Empresa">
+    <div class="sobre-texto">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a fornecer soluções inovadoras para nossos clientes, garantindo qualidade e excelência em todos os nossos produtos e serviços. Entre em contato. </p>
+    </div>
+</div>
+
+<!-- Formulário de Contato -->
+<h1>Formulário de Contato</h1>
+<form id="contact-form">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" required>
+
+    <label for="phone">Telefone:</label>
+    <input type="text" id="phone" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Efeito de Rolagem Suave -->
+<button id="scrollToTop">Ir para o topo</button>
+
+<!-- Link para o arquivo JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
